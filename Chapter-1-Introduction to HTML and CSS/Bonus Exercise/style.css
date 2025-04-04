@@ -1,25 +1,27 @@
+/*body section*/ 
 body{
-    background-color: black;
-    background-image: url("bg.avif");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-color: black;            /*adding a bg color in case the bg img doesn't work*/
+    background-image: url("bg.avif");     /*background image for the resume page*/
+    background-repeat: no-repeat;         /*doesn't repeat the bg img*/
+    background-attachment: fixed;         /*keeps the bg image fixed when we scroll the webpage*/
+    background-position: center;          
+    background-size: cover;               /*this function allows the photo to scale itself so it can cover the whole page*/
 }
+
 
 .main{
     color: #00ff73;
     font-family: "Press Start 2P","Consolas";
-    font-weight: bold;
+    font-weight: bold;      /*makes the text bold*/
     text-decoration: cyan dotted underline;
-    font-size: 30px;
+    font-size: 30px;        /*font size*/
 
-    text-shadow: 0px 0px 5px white, 0px -5px 5px black;
+    text-shadow: 0px 0px 5px white, 0px -5px 5px black;     /*to add a shadow effect to the text*/
 }
 
 .name{
     color: rgb(62, 189, 189);
-    font-family: "Press Start 2P","Consolas";
+    font-family: "Press Start 2P","Consolas";       /*font style , also added a backup font incase the first font doesn't work*/
     
 }
 
@@ -32,11 +34,12 @@ body{
     color: rgb(255, 82, 82);
 }
 
+/*adding a border in the webpage to enhance its appearance*/
 .border{
-    border-width: 3px;
-    border-left-style: solid;
+    border-width: 3px;          /*widhth of the border*/
+    border-left-style: solid;   /*border style set as solid on all 4 sides*/
     border-top-style: solid;
     border-bottom-style: solid;
     border-right-style: solid;
-    border-color:white;
+    border-color:white;      /*border color*/
 }
