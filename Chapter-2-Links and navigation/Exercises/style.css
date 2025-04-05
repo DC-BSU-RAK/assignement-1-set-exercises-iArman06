@@ -1,0 +1,117 @@
+/*navigation sectopm*/
+
+
+/*head section*/
+.heading{                   /*using the class in html file*/
+    font-size: 70px;
+    color: red;
+    text-align: center;
+    text-shadow: 0 0 10px red,
+                 0 0 20px red,
+                 0 0 30px darkred
+                 0 0 40px crimson;
+}
+
+/*box adjustments*/
+.navigation{        /*useing the class in html file*/
+    border: 2px solid red;
+    background-color: rgb(27, 17, 17);
+    margin: 30px 0px 30px 0px; /*it is the space in nav above and below text*/
+    padding: 15px;
+    height: auto;
+    border-radius: 15px;
+    position: sticky;
+    text-align: left;
+}
+
+/*text adjustment inside the nav box*/
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px; /*curve of the border*/
+    margin: 0px 15px;
+    text-decoration: none;
+}
+
+/*to add a effect when the cursor moves on it*/
+nav a:hover {
+    background-color: rgb(253, 253, 253); /*bg color when the cursor hovers*/
+    color: black;                         /*text color*/
+    text-decoration: underline;             /*underline effect*/
+}
+
+/*body section*/ 
+body{
+    background-color: rgb(0, 0, 0);          /*adding a bg color*/   
+    color: white;
+    font-family: "Press Start 2P","Consolas";   /*adding a font*/
+    margin: 0;
+    padding: 20px;
+}
+
+/*making the horizontal lines red*/
+hr{
+    border: 2px solid red;
+}
+
+/*giving a box to each h2 heading*/
+h2{
+    border: 2px solid red;
+    margin: 30px 0px 30px 0px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: red;
+}
+
+/*styling the table*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th , td{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+    text-align: center; /*to make the table sit in the middle so it covers the empty space*/
+}
+
+/*styling the ordered and unordered lists and same to the table and paragraphs*/
+ul , p , table{
+    margin: 10px;
+    padding: 15px;
+    border-left: 3px solid red;     /*adding a border*/
+    border-right: 3px solid red;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(228, 186, 186, 0.05);    /*bg color of the border*/
+}
+
+/*changing the highlighted text color in the reviews*/
+mark{
+    background-color: rgb(226, 57, 57);
+    color: white;
+}
+
+/*for smooth scrolling of the webpage*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*button for the link*/
+.button{
+    background-color: blue; /*bg color*/
+    color: white;   /*text color*/
+    text-decoration: none;
+    border-radius: 10px;  /*border corners*/
+    font-size: medium;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.button :hover{
+    background-color: darkblue; /* the color when the mouse hovers over the link area*/
+}
