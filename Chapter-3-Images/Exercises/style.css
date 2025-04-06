@@ -1,0 +1,55 @@
+/*body section*/
+body{
+    background-color: #150050;       /*background color of the webpage*/
+    color: #ffffff;                  /*text color*/
+    text-align: center;                /*aligning the text at center*/
+    padding: 20px;
+    margin: 80px;
+}
+
+/*class used in html file*/
+.definition{
+    font-family: "Sour Gummy","consolar",sans-serif; /*using a font style for the text*/
+    font-size: 25px;
+}
+
+/*styling the main heading of the webpage*/
+/*creating a box for the main heading and giving it a shadow floating effect*/
+h1{
+    text-align: center;
+    font-family: "Sour Gummy","consolar",sans-serif; /*font for the main title*/
+    font-size: 50px;                                 /*font size*/
+    font-weight: 800;
+    width: fit-content;
+    letter-spacing: 2px; 
+    display: inline-block;
+    padding: 20px 40px;
+    padding-bottom: 5px;
+    margin: 30px;
+    background: linear-gradient(to right, #b98b4e, #5b4db8);    /*gradient effect inside the box*/
+    color: #ffffff;                                              /*color of the text inside the box*/
+    border-radius: 15px;                                          /*corner of the box*/
+    box-shadow: 0 0 15px #000000, 0 0 30px #4d4101;          /*shadow for the box*/
+}
+
+/*styling the subtext under the main heading text*/
+h3{
+    font-family: "Press 2 Start","Consolas",sans-serif;   /*font style*/
+    text-align: center;                                  /*aligning it to the center*/
+    color: #ffffff;                                   /*color of the text*/
+    text-shadow: 0px 0px 10px #000000;               /*giving a shadow like effect to the whole sentence*/
+}
+
+/*styling the description part below the images*/
+.description{
+    font-weight: bolder;
+    font-size: medium;
+    margin: 15px;
+}
+
+/*adding filters/styling the images*/
+img{
+    filter: brightness(1.1) contrast(1.2) saturate(1.4) drop-shadow(0 0 10px #000000); /*adding filters to the images*/
+    border-radius: 20px;                                                                 /*making curve at the corners*/
+}
+

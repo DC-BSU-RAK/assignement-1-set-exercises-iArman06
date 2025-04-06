@@ -1,0 +1,26 @@
+/*styling the first box div#A*/
+.box1{
+    border: 5px solid purple;                       /*adding purple color to the borders*/
+    box-shadow: 15px 15px 15px rgb(255, 0, 43);     /*adding shadows of 15px (pink color)*/
+}
+
+/*styling the second box div#B*/
+.box2{
+    border: 5px solid rgb(47, 255, 47);             /*adding green color to the borders*/
+    box-shadow: inset 10px 10px 10px black;         /*adding black shadow inside the box*/
+}
+
+/*styling the third box div#C*/
+.box3{
+    border: 5px solid rgb(255, 145, 0);             /*adding orange color to the borders*/
+    border-radius: 25px;                              /*adding curves to the box corner*/
+    outline: 10px solid blue;                       /*adding blue on orange*/
+    box-shadow: 0px 0px 0px 20px red,               /*adding red on blue*/
+                    0px 0px 0px 30px green;         /*adding green on red*/
+}
+
+/*styling the fourth box div#D*/
+.box4{
+    border: 5px solid rgb(78, 2, 2);                /*adding dark red type color to the borders*/
+    text-shadow: 5px 5px 1px black;                 /*adding shadow effect to the text inside the box*/
+}
