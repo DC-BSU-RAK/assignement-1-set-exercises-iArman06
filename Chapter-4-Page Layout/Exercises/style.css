@@ -1,0 +1,94 @@
+/*styling the body of the webpage*/
+body{
+    font-family: Arial, Helvetica, sans-serif; /*adding fontstyle*/
+    text-align: center; /*aligning text to the center*/
+    background-color: black;    /*putting the main background as black*/
+    color: white;   /*font color as white*/
+}
+
+/*styling the heading*/
+.heading{
+    font-family: "Tahoma",sans-serif;   /*heading font*/
+    font-weight: 700px;
+    font-size: 30px;    /*heading size*/
+    background-color: black;    /*background color as black*/
+    padding: 20px 0;
+    text-align: center;     /*aligning the heading to center*/
+}
+
+/*styling the navigation bar*/
+.navigation{
+    background-color: black;
+    text-align: center; /*aligning the nav bar to center*/
+    padding: 10px 0;
+}
+
+/*styling the content of navigation bar*/
+.navigation a{
+    font-size: 25px;
+    color: white;   /*font color of nav bar as white*/
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+/*styling the main welcome page*/
+main{
+    background-color: white;
+    color: black;
+    display: flex;  
+    flex-direction: row; /*both the coloumns stays side by side*/
+    padding: 10px;  
+    margin: 0px;
+}
+
+.welcome_page{
+    text-align: left;
+    background-color: white;
+    padding: 15px;
+    font-family: Tahoma, sans-serif;
+}
+/*styling the welcome page image*/
+.image1 img {
+    width: 800px;
+}
+
+
+/*styling the sidebar*/
+.lineup{
+    text-align: left;
+    position: relative;
+    background-color:  #172d67;
+    line-height: 1.6;
+    color: white;
+}
+.sidebar_img{
+    display: flex;
+    margin-left: 25px;
+    gap: 2px; /*the space between both the images*/
+    justify-content: left;
+}
+
+.sidebar_img img{
+    width: 190px;   /*width of the image*/
+    height: 180px;  /*height of the image*/
+    
+}
+.welcome_page,
+.lineup {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+/*styling the footer*/
+footer{
+    background-color: #8c15e9;      /*bg color of the footer*/
+    font-family: Arial, Helvetica, sans-serif; /*font style for the footer*/
+    text-align: center;     /*aligning the text in footer to center*/
+    padding: 5px;
+
+}
+

@@ -1,0 +1,145 @@
+/*studying the body*/
+body{
+    background-color: black;
+}
+
+/*to add the nav bar right beside the main heading*/
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/*stulying a box around the main heading - Web Development*/
+.heading_box{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    background: linear-gradient(gold, Gold ,Yellow,black);
+    text-align: left;
+    width: fit-content;
+    box-shadow: 0 4px 16px;
+}
+
+/*styling the navigation*/
+.navigation{
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid gold;
+
+}
+/*styling the content inside the nav*/
+.navigation a{
+    color: gold;
+    font-size: 20px;
+    text-decoration: none; /*to remove the underline from the nav content*/    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 20px; /*to add space in between the different links*/
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: color 1s ease, border-bottom 1s ease; /*for smoothness in underline and color transition*/
+
+}
+
+/*adding hover effect*/
+.navigation a:hover{
+    color: yellowgreen; /*the color changes when the cursor hovers above it*/
+    border-bottom: 2px solid gold; /*a gold underline forms when hovering*/
+}
+
+/*styling the search box*/
+.search_box{
+    border: 5px solid rgb(205, 253, 30);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    width: fit-content; /*to fit the size of the search box*/
+}
+
+/*styling the promotion section*/
+.promotion{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 20px 10px;
+    margin: 10px 10px;
+
+    /*adding a line above and below the promotion text*/
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+
+}
+
+/*styling the buttons*/
+.try , .learn{
+    background-color: gold;
+    cursor: pointer; /*the cursor changes to pointer when hovering on it*/
+
+}
+
+/*styling the horizontal line*/
+.line{
+    width: auto;
+    box-shadow: 0 0 10px gold;
+
+}
+
+/*to add color to the text - white*/
+.content{
+    color: white;
+}
+
+/*styling the definitions*/
+.webdev{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+/*styling a button for the link*/
+.button{
+    background-color: rgb(217, 255, 0); /*bg color*/
+    color: black;   /*text color*/
+    text-decoration: none;
+    border-radius: 10px;  /*border corners*/
+    font-size: medium;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+/*Container for the colum */
+.container {
+    display: flex;
+    gap: 40px; /*adding gap between the columns*/
+}
+  
+/*Styling Left Column*/
+.left_column {
+    border: 2px solid gold; /*adding gold border to the column*/
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;    /*adding a curve to the border at the corners*/
+}
+  
+/*Styling Right Column*/
+.right_column {
+    border: 2px solid greenyellow;  /*adding green-yellow border to the right column*/
+    width: 75%;
+    padding: 25px;
+    border-radius: 10px;
+}
+  
+/*styling the footer*/
+footer{
+    text-align: center; /*putting the content at the center*/
+    background-color: gold; /*keeping the background gold to match the web page theme*/
+    color: black;   /*keeping font color as black to be visible in gold background*/
+}
+  
+
+
+
