@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--main heading-->
+    <h1>Petrol Calculator</h1>
+
+    <!--adding content to the calculator-->
+    <div class="calculator">
+
+
+        <!--for the cost of petrol , but defauly it will read 1.72 because of the value attribute in input-->
+        <h3>Cost of Petrol (per liter)</h3>
+        <input type="number" id="cost_of_petrol" value="1.72" step="0.01">
+
+        <!--to enter the number of liters -->
+        <h3>Number of Liters Purchased</h3>
+        <input type="number" id="liter_purchased" value="0" step="0.01">
+
+        <!--adding a button to calculate-->
+        <!--calculate function added in index.js-->
+        <button onclick="calculateTotal()">calculate</button>
+
+        <!--result section-->
+        <p id="total">Total Cost: AED 0.00</p>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

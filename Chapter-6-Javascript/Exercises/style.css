@@ -1,0 +1,36 @@
+/*styling the background*/ 
+body{
+    background-color: blanchedalmond;   /*adding background color*/
+    font-family: Arial, Helvetica, sans-serif;  /*font style*/
+
+    /*to put the calculator in middle of the screen*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*styling the heading*/
+h1{
+    font-family: Arial, Helvetica, sans-serif;  /*font style*/
+    text-align: center;
+    border-bottom: 5px solid rgb(0, 0, 0);     /*adding a line below the main heading*/
+    border-radius: 25px;    /*adding curve to the line end*/
+}
+
+/*styling the calculator*/
+.calculator{
+
+    /*adding margin and padding to enhance the look of the calculator*/
+    margin: 20px;
+    padding: 20px;
+
+
+    border-radius: 20px;    /*adding corner to the border*/
+    background-color: black;    /*adding colour to the background of the calculator*/
+    border: none;
+    color: white;   /*font color*/
+    box-shadow: inset;
+    text-align: center; /*aligning all the texts in the calculator to the center*/
+}
+
